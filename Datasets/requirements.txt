@@ -1,7 +1,0 @@
-torch
-#Tokenización y NPL
-tiktoken
-tokenizers
-transformers
-#Interfaz Interactiva de Jupyter Widgets
-ipywidgets
