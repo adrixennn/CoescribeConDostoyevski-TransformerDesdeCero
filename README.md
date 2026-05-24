@@ -20,14 +20,15 @@ El proyecto se divide de manera secuencial e incremental en cuatro notebooks pri
 
 ## Guía de Uso Rápido: Utilidad de Autocompletar
 
->  **NOTA IMPORTANTE:** Si tu objetivo es únicamente probar el modelo y ver la herramienta de generación interactiva en funcionamiento, **no necesitas ejecutar la totalidad del proyecto ni realizar el proceso completo de entrenamiento de nuevo**.
+> 💡 **NOTA IMPORTANTE:** Si tu objetivo es únicamente probar el modelo y ver la herramienta de generación interactiva en funcionamiento, **no necesitas ejecutar la totalidad del proyecto ni realizar el proceso completo de entrenamiento de nuevo**.
 
-La funcionalidad interactiva está completamente desacoplada y lista para usarse de forma directa:
+La funcionalidad interactiva está completamente desacoplada y lista para usarse de forma directa siguiendo estos pasos:
 
-1. Abre el notebook **`04-EntrenamientoDelModelo.ipynb`**.
-2. Dirígete directamente al último apartado: **`## 4.6 Utilidad: AUTOCOMPLETAR`**.
-3. Ejecuta las celdas de ese bloque (sección `4.6.1`). Estas celdas se encargan de importar las dependencias necesarias desde `clases_a_utilizar.py`, cargar el tokenizador preentrenado junto con los pesos del modelo guardado en disco, y desplegar un widget gráfico HTML/JavaScript dinámico dentro del propio entorno de Jupyter.
-4. Escribe el texto inicial (*prompt*) en la caja de interfaz y presiona **Completar** para interactuar con el LLM en tiempo real.
+1. **Descargar los pesos del modelo:** Entra en el repositorio de Hugging Face de [adrixen/CoescribeConDostoyevski](https://huggingface.co/adrixen/CoescribeConDostoyevski/tree/main), descarga el archivo del modelo llamado `gal-2_modelo5_12000` e introdúcelo localmente dentro de una carpeta llamada `Modelos` en la raíz de tu proyecto.
+2. Abre el notebook **`04-EntrenamientoDelModelo.ipynb`**.
+3. Dirígete directamente al último apartado: **`## 4.6 Utilidad: AUTOCOMPLETAR`**.
+4. Ejecuta las celdas de ese bloque (sección `4.6.1`). Estas celdas se encargan de importar las dependencias necesarias desde `clases_a_utilizar.py`, cargar el tokenizador preentrenado junto con el archivo de la carpeta `Modelos`, y desplegar un widget gráfico HTML/JavaScript dinámico dentro del propio entorno de Jupyter.
+5. Escribe el texto inicial (*prompt*) en la caja de interfaz y presiona **Completar** para interactuar con el LLM en tiempo real.
 
 ---
 
