@@ -1,0 +1,1 @@
+Entra en el repositorio de Hugging Face de [adrixen/CoescribeConDostoyevski](https://huggingface.co/adrixen/CoescribeConDostoyevski/tree/main), descarga el archivo del modelo llamado `gal-2_modelo5_12000` e introdúcelo dentro de esta carpeta.
